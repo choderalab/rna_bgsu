@@ -1,0 +1,71 @@
+data_view
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.Cartn_x_esd
+_atom_site.Cartn_y_esd
+_atom_site.Cartn_z_esd
+_atom_site.occupancy_esd
+_atom_site.B_iso_or_equiv_esd
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_comp_id
+_atom_site.auth_asym_id
+_atom_site.auth_atom_id
+_atom_site.pdbx_PDB_model_num
+ATOM   0  P  P      ?     U  A  ?  6  ?      -8.508   23.52  -2.927  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  P      1  
+ATOM   1  O  OP1    ?     U  A  ?  6  ?      -8.089  24.404  -4.036  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  OP1    1  
+ATOM   2  O  OP2    ?     U  A  ?  6  ?      -9.891  23.651  -2.393  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  OP2    1  
+ATOM   3  O  "O5'"  ?     U  A  ?  6  ?      -8.304  22.004  -3.372  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "O5'"  1  
+ATOM   4  C  "C5'"  ?     U  A  ?  6  ?      -7.045  21.568  -3.862  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "C5'"  1  
+ATOM   5  C  "C4'"  ?     U  A  ?  6  ?      -6.972  20.066  -3.955  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "C4'"  1  
+ATOM   6  O  "O4'"  ?     U  A  ?  6  ?      -7.039  19.475  -2.635  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "O4'"  1  
+ATOM   7  C  "C3'"  ?     U  A  ?  6  ?      -8.098  19.379  -4.709  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "C3'"  1  
+ATOM   8  O  "O3'"  ?     U  A  ?  6  ?      -7.992  19.488  -6.113  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "O3'"  1  
+ATOM   9  C  "C2'"  ?     U  A  ?  6  ?      -8.011   17.96  -4.177  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "C2'"  1  
+ATOM  10  O  "O2'"  ?     U  A  ?  6  ?      -6.896   17.28   -4.73  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "O2'"  1  
+ATOM  11  C  "C1'"  ?     U  A  ?  6  ?      -7.705  18.229  -2.708  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  "C1'"  1  
+ATOM  12  N  N1     ?     U  A  ?  6  ?      -8.939   18.31  -1.912  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  N1     1  
+ATOM  13  C  C2     ?     U  A  ?  6  ?       -9.48  17.104  -1.546  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  C2     1  
+ATOM  14  O  O2     ?     U  A  ?  6  ?      -8.967  16.045   -1.86  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  O2     1  
+ATOM  15  N  N3     ?     U  A  ?  6  ?     -10.622  17.191  -0.812  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  N3     1  
+ATOM  16  C  C4     ?     U  A  ?  6  ?     -11.251  18.352  -0.412  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  C4     1  
+ATOM  17  O  O4     ?     U  A  ?  6  ?     -12.275  18.265   0.261  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  O4     1  
+ATOM  18  C  C5     ?     U  A  ?  6  ?     -10.624  19.566  -0.838  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  C5     1  
+ATOM  19  C  C6     ?     U  A  ?  6  ?      -9.506  19.508  -1.554  ?  ?  ?  ?  ?  ?  ?  .  6  U  A  C6     1  
+ATOM   0  P  P      ?     A  A  ?  28  ?     -17.481  16.645   1.846  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  P      1  
+ATOM   1  O  OP1    ?     A  A  ?  28  ?     -17.931  16.551   3.251  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  OP1    1  
+ATOM   2  O  OP2    ?     A  A  ?  28  ?     -16.618   17.77   1.402  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  OP2    1  
+ATOM   3  O  "O5'"  ?     A  A  ?  28  ?     -16.708  15.304    1.49  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "O5'"  1  
+ATOM   4  C  "C5'"  ?     A  A  ?  28  ?     -17.335  14.041   1.659  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "C5'"  1  
+ATOM   5  C  "C4'"  ?     A  A  ?  28  ?     -16.446   13.08   2.405  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "C4'"  1  
+ATOM   6  O  "O4'"  ?     A  A  ?  28  ?     -15.302  12.739   1.573  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "O4'"  1  
+ATOM   7  C  "C3'"  ?     A  A  ?  28  ?     -15.873  13.622   3.715  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "C3'"  1  
+ATOM   8  O  "O3'"  ?     A  A  ?  28  ?      -15.76  12.561   4.661  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "O3'"  1  
+ATOM   9  C  "C2'"  ?     A  A  ?  28  ?     -14.478  14.078   3.306  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "C2'"  1  
+ATOM  10  O  "O2'"  ?     A  A  ?  28  ?     -13.544   14.12    4.36  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "O2'"  1  
+ATOM  11  C  "C1'"  ?     A  A  ?  28  ?     -14.109  13.018   2.277  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  "C1'"  1  
+ATOM  12  N  N9     ?     A  A  ?  28  ?     -13.098  13.438   1.312  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  N9     1  
+ATOM  13  C  C8     ?     A  A  ?  28  ?     -12.691  14.708    0.99  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  C8     1  
+ATOM  14  N  N7     ?     A  A  ?  28  ?     -11.753  14.731   0.075  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  N7     1  
+ATOM  15  C  C5     ?     A  A  ?  28  ?      -11.53  13.393  -0.222  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  C5     1  
+ATOM  16  C  C6     ?     A  A  ?  28  ?     -10.658   12.74  -1.119  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  C6     1  
+ATOM  17  N  N6     ?     A  A  ?  28  ?        -9.8  13.372  -1.922  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  N6     1  
+ATOM  18  N  N1     ?     A  A  ?  28  ?     -10.696  11.385  -1.159  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  N1     1  
+ATOM  19  C  C2     ?     A  A  ?  28  ?      -11.56  10.743  -0.363  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  C2     1  
+ATOM  20  N  N3     ?     A  A  ?  28  ?     -12.421  11.241   0.519  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  N3     1  
+ATOM  21  C  C4     ?     A  A  ?  28  ?     -12.358  12.586   0.535  ?  ?  ?  ?  ?  ?  ?  .  28  A  A  C4     1  

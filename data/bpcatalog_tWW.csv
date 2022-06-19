@@ -1,0 +1,17 @@
+# 5/25/2022
+Base Combinations
+Sequence	Isostericity Group	Non-Redundant Count	Exemplar PDB	Exemplar Resolution	Exemplar Model	Exemplar Chains	Exemplar Numbers	Exemplar Symmetry Operators
+UG	2.3	4	1S72	2.4	1	0, 0	1966, 1970	1_555, 1_555
+CA	2.3	14	1S72	2.4	1	0, 0	2037, 1742	1_555, 1_555
+AA	2.4	69	1NUV	1.81	1	A, G	25, 25	1_555, 1_555
+GG	2.4	10	1NUV	1.81	1	C, E	26, 26	1_555, 1_555
+AC	2.3	14	1S72	2.4	1	0, 0	1742, 2037	1_555, 1_555
+GU	2.3	4	1S72	2.4	1	0, 0	1970, 1966	1_555, 1_555
+UU	2.6	5	2QBG	3.3	1	B, B	2586, 1782	1_555, 1_555
+AU	2.1	70	1S72	2.4	1	0, 0	2467, 2109	1_555, 1_555
+CU	2.5	3	1S72	2.4	1	0, 0	1394, 1432	1_555, 1_555
+CC	2.6	7	3ZP8	1.55	1	A, A	8, 26	1_555, 1_555
+UC	2.5	3	1S72	2.4	1	0, 0	1432, 1394	1_555, 1_555
+UA	2.1	70	1S72	2.4	1	0, 0	2109, 2467	1_555, 1_555
+GC	2.2	57	1J1U	1.95	1	B, B	515, 549	1_555, 1_555
+CG	2.2	57	1J1U	1.95	1	B, B	549, 515	1_555, 1_555

@@ -1,0 +1,73 @@
+data_view
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.Cartn_x_esd
+_atom_site.Cartn_y_esd
+_atom_site.Cartn_z_esd
+_atom_site.occupancy_esd
+_atom_site.B_iso_or_equiv_esd
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_comp_id
+_atom_site.auth_asym_id
+_atom_site.auth_atom_id
+_atom_site.pdbx_PDB_model_num
+ATOM   0  P  P      ?     A  A  ?  946  ?     239.323  109.621  -8.686  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  P      1  
+ATOM   1  O  OP1    ?     A  A  ?  946  ?     239.653  108.248  -8.202  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  OP1    1  
+ATOM   2  O  OP2    ?     A  A  ?  946  ?      238.29  110.431   -7.97  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  OP2    1  
+ATOM   3  O  "O5'"  ?     A  A  ?  946  ?     240.647  110.496  -8.732  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "O5'"  1  
+ATOM   4  C  "C5'"  ?     A  A  ?  946  ?     241.879  109.946   -9.19  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "C5'"  1  
+ATOM   5  C  "C4'"  ?     A  A  ?  946  ?     243.026  110.768  -8.665  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "C4'"  1  
+ATOM   6  O  "O4'"  ?     A  A  ?  946  ?     242.957  112.112  -9.203  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "O4'"  1  
+ATOM   7  C  "C3'"  ?     A  A  ?  946  ?     243.061  110.946  -7.159  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "C3'"  1  
+ATOM   8  O  "O3'"  ?     A  A  ?  946  ?     243.737  109.855   -6.56  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "O3'"  1  
+ATOM   9  C  "C2'"  ?     A  A  ?  946  ?     243.849  112.235    -7.0  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "C2'"  1  
+ATOM  10  O  "O2'"  ?     A  A  ?  946  ?     245.239  111.995  -7.078  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "O2'"  1  
+ATOM  11  C  "C1'"  ?     A  A  ?  946  ?     243.422  113.027  -8.238  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  "C1'"  1  
+ATOM  12  N  N9     ?     A  A  ?  946  ?     242.383  114.036  -8.026  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  N9     1  
+ATOM  13  C  C8     ?     A  A  ?  946  ?     241.084    114.0  -8.455  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  C8     1  
+ATOM  14  N  N7     ?     A  A  ?  946  ?     240.416    115.1  -8.208  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  N7     1  
+ATOM  15  C  C5     ?     A  A  ?  946  ?      241.33  115.905  -7.549  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  C5     1  
+ATOM  16  C  C6     ?     A  A  ?  946  ?     241.242  117.207  -7.036  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  C6     1  
+ATOM  17  N  N6     ?     A  A  ?  946  ?     240.159  117.969  -7.144  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  N6     1  
+ATOM  18  N  N1     ?     A  A  ?  946  ?     242.322  117.713  -6.409  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  N1     1  
+ATOM  19  C  C2     ?     A  A  ?  946  ?     243.417  116.958  -6.324  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  C2     1  
+ATOM  20  N  N3     ?     A  A  ?  946  ?     243.632  115.726  -6.787  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  N3     1  
+ATOM  21  C  C4     ?     A  A  ?  946  ?     242.535  115.251  -7.399  ?  ?  ?  ?  ?  ?  ?  .  946  A  A  C4     1  
+ATOM   0  P  P      ?     A  A  ?  1333  ?     253.229  109.456   -7.967  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  P      1  
+ATOM   1  O  OP1    ?     A  A  ?  1333  ?     253.586  108.251   -8.761  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  OP1    1  
+ATOM   2  O  OP2    ?     A  A  ?  1333  ?     253.935  110.738   -8.227  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  OP2    1  
+ATOM   3  O  "O5'"  ?     A  A  ?  1333  ?     251.664  109.725   -8.095  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "O5'"  1  
+ATOM   4  C  "C5'"  ?     A  A  ?  1333  ?      250.72  108.652   -7.947  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "C5'"  1  
+ATOM   5  C  "C4'"  ?     A  A  ?  1333  ?     249.321  109.198   -7.857  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "C4'"  1  
+ATOM   6  O  "O4'"  ?     A  A  ?  1333  ?     249.246  110.064   -6.701  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "O4'"  1  
+ATOM   7  C  "C3'"  ?     A  A  ?  1333  ?     248.859  110.067   -9.018  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "C3'"  1  
+ATOM   8  O  "O3'"  ?     A  A  ?  1333  ?     248.296    109.3  -10.075  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "O3'"  1  
+ATOM   9  C  "C2'"  ?     A  A  ?  1333  ?     247.796  110.939   -8.372  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "C2'"  1  
+ATOM  10  O  "O2'"  ?     A  A  ?  1333  ?     246.561   110.27   -8.271  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "O2'"  1  
+ATOM  11  C  "C1'"  ?     A  A  ?  1333  ?     248.366  111.136   -6.969  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  "C1'"  1  
+ATOM  12  N  N9     ?     A  A  ?  1333  ?     249.104  112.389   -6.845  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  N9     1  
+ATOM  13  C  C8     ?     A  A  ?  1333  ?     250.457  112.596   -6.822  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  C8     1  
+ATOM  14  N  N7     ?     A  A  ?  1333  ?     250.796  113.857     -6.7  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  N7     1  
+ATOM  15  C  C5     ?     A  A  ?  1333  ?     249.582  114.523   -6.636  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  C5     1  
+ATOM  16  C  C6     ?     A  A  ?  1333  ?      249.25   115.88   -6.486  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  C6     1  
+ATOM  17  N  N6     ?     A  A  ?  1333  ?     250.148  116.858   -6.363  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  N6     1  
+ATOM  18  N  N1     ?     A  A  ?  1333  ?     247.941  116.205    -6.46  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  N1     1  
+ATOM  19  C  C2     ?     A  A  ?  1333  ?     247.034  115.227   -6.572  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  C2     1  
+ATOM  20  N  N3     ?     A  A  ?  1333  ?     247.219  113.923   -6.708  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  N3     1  
+ATOM  21  C  C4     ?     A  A  ?  1333  ?     248.532  113.632   -6.731  ?  ?  ?  ?  ?  ?  ?  .  1333  A  A  C4     1  

@@ -1,0 +1,74 @@
+data_view
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.Cartn_x_esd
+_atom_site.Cartn_y_esd
+_atom_site.Cartn_z_esd
+_atom_site.occupancy_esd
+_atom_site.B_iso_or_equiv_esd
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_comp_id
+_atom_site.auth_asym_id
+_atom_site.auth_atom_id
+_atom_site.pdbx_PDB_model_num
+ATOM   0  P  P      ?     A  B  ?  129  ?     57.306  87.245  41.894  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  P      1  
+ATOM   1  O  OP1    ?     A  B  ?  129  ?     58.022  87.885  40.763  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  OP1    1  
+ATOM   2  O  OP2    ?     A  B  ?  129  ?     56.623  88.089  42.907  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  OP2    1  
+ATOM   3  O  "O5'"  ?     A  B  ?  129  ?     56.255  86.186  41.315  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "O5'"  1  
+ATOM   4  C  "C5'"  ?     A  B  ?  129  ?     54.904  86.196  41.739  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "C5'"  1  
+ATOM   5  C  "C4'"  ?     A  B  ?  129  ?     53.981  86.241  40.543  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "C4'"  1  
+ATOM   6  O  "O4'"  ?     A  B  ?  129  ?     54.596  85.554  39.422  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "O4'"  1  
+ATOM   7  C  "C3'"  ?     A  B  ?  129  ?      52.66  85.522  40.755  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "C3'"  1  
+ATOM   8  O  "O3'"  ?     A  B  ?  129  ?     51.717  86.347  41.439  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "O3'"  1  
+ATOM   9  C  "C2'"  ?     A  B  ?  129  ?     52.268  85.214  39.311  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "C2'"  1  
+ATOM  10  O  "O2'"  ?     A  B  ?  129  ?     51.747  86.339  38.626  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "O2'"  1  
+ATOM  11  C  "C1'"  ?     A  B  ?  129  ?     53.619  84.803  38.724  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  "C1'"  1  
+ATOM  12  N  N9     ?     A  B  ?  129  ?     53.917  83.372  38.854  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  N9     1  
+ATOM  13  C  C8     ?     A  B  ?  129  ?      54.46  82.737  39.941  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  C8     1  
+ATOM  14  N  N7     ?     A  B  ?  129  ?     54.614  81.445  39.787  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  N7     1  
+ATOM  15  C  C5     ?     A  B  ?  129  ?     54.144  81.204  38.509  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  C5     1  
+ATOM  16  C  C6     ?     A  B  ?  129  ?     54.036  80.022  37.742  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  C6     1  
+ATOM  17  N  N6     ?     A  B  ?  129  ?     54.417  78.825  38.191  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  N6     1  
+ATOM  18  N  N1     ?     A  B  ?  129  ?     53.523  80.116  36.494  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  N1     1  
+ATOM  19  C  C2     ?     A  B  ?  129  ?      53.14  81.322  36.047  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  C2     1  
+ATOM  20  N  N3     ?     A  B  ?  129  ?     53.192  82.502  36.675  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  N3     1  
+ATOM  21  C  C4     ?     A  B  ?  129  ?     53.709   82.38  37.916  ?  ?  ?  ?  ?  ?  ?  .  129  A  B  C4     1  
+ATOM   0  P  P      ?     G  B  ?  128  ?     56.407    87.3  47.157  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  P      1  
+ATOM   1  O  OP1    ?     G  B  ?  128  ?     57.383  88.175  47.845  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  OP1    1  
+ATOM   2  O  OP2    ?     G  B  ?  128  ?     55.489  87.899  46.163  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  OP2    1  
+ATOM   3  O  "O5'"  ?     G  B  ?  128  ?     57.185  86.095  46.439  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "O5'"  1  
+ATOM   4  C  "C5'"  ?     G  B  ?  128  ?     58.621  86.065  46.247  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "C5'"  1  
+ATOM   5  C  "C4'"  ?     G  B  ?  128  ?     59.022  85.642   44.84  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "C4'"  1  
+ATOM   6  O  "O4'"  ?     G  B  ?  128  ?     59.606  84.311  44.818  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "O4'"  1  
+ATOM   7  C  "C3'"  ?     G  B  ?  128  ?     57.901  85.621  43.815  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "C3'"  1  
+ATOM   8  O  "O3'"  ?     G  B  ?  128  ?     58.336  86.294  42.651  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "O3'"  1  
+ATOM   9  C  "C2'"  ?     G  B  ?  128  ?      57.66   84.13  43.598  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "C2'"  1  
+ATOM  10  O  "O2'"  ?     G  B  ?  128  ?     57.105  83.851  42.332  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "O2'"  1  
+ATOM  11  C  "C1'"  ?     G  B  ?  128  ?     59.088  83.612  43.706  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  "C1'"  1  
+ATOM  12  N  N9     ?     G  B  ?  128  ?     59.252  82.176   43.94  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  N9     1  
+ATOM  13  C  C8     ?     G  B  ?  128  ?     60.078  81.602  44.876  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  C8     1  
+ATOM  14  N  N7     ?     G  B  ?  128  ?     60.055  80.299  44.883  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  N7     1  
+ATOM  15  C  C5     ?     G  B  ?  128  ?     59.158  79.982  43.879  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  C5     1  
+ATOM  16  C  C6     ?     G  B  ?  128  ?     58.729  78.713  43.427  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  C6     1  
+ATOM  17  O  O6     ?     G  B  ?  128  ?     59.082  77.602  43.851  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  O6     1  
+ATOM  18  N  N1     ?     G  B  ?  128  ?     57.805  78.812  42.381  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  N1     1  
+ATOM  19  C  C2     ?     G  B  ?  128  ?     57.355    80.0  41.845  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  C2     1  
+ATOM  20  N  N2     ?     G  B  ?  128  ?     56.469  79.911  40.845  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  N2     1  
+ATOM  21  N  N3     ?     G  B  ?  128  ?     57.753  81.197  42.265  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  N3     1  
+ATOM  22  C  C4     ?     G  B  ?  128  ?     58.652   81.12  43.282  ?  ?  ?  ?  ?  ?  ?  .  128  G  B  C4     1  

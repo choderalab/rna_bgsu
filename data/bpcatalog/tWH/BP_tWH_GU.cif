@@ -1,0 +1,72 @@
+data_view
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.Cartn_x_esd
+_atom_site.Cartn_y_esd
+_atom_site.Cartn_z_esd
+_atom_site.occupancy_esd
+_atom_site.B_iso_or_equiv_esd
+_atom_site.pdbx_formal_charge
+_atom_site.auth_seq_id
+_atom_site.auth_comp_id
+_atom_site.auth_asym_id
+_atom_site.auth_atom_id
+_atom_site.pdbx_PDB_model_num
+ATOM   0  P  P      ?     G  B  ?  2166  ?       -8.74  -42.905   -14.16  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  P      1  
+ATOM   1  O  OP1    ?     G  B  ?  2166  ?      -9.917  -43.418  -14.914  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  OP1    1  
+ATOM   2  O  OP2    ?     G  B  ?  2166  ?      -8.343  -41.493  -14.345  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  OP2    1  
+ATOM   3  O  "O5'"  ?     G  B  ?  2166  ?      -8.912  -43.218  -12.605  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "O5'"  1  
+ATOM   4  C  "C5'"  ?     G  B  ?  2166  ?      -9.326  -44.492  -12.149  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "C5'"  1  
+ATOM   5  C  "C4'"  ?     G  B  ?  2166  ?      -9.251  -44.579  -10.649  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "C4'"  1  
+ATOM   6  O  "O4'"  ?     G  B  ?  2166  ?      -7.873  -44.418   -10.22  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "O4'"  1  
+ATOM   7  C  "C3'"  ?     G  B  ?  2166  ?     -10.002  -43.495   -9.886  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "C3'"  1  
+ATOM   8  O  "O3'"  ?     G  B  ?  2166  ?     -11.377  -43.775    -9.73  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "O3'"  1  
+ATOM   9  C  "C2'"  ?     G  B  ?  2166  ?      -9.245  -43.422   -8.572  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "C2'"  1  
+ATOM  10  O  "O2'"  ?     G  B  ?  2166  ?      -9.585  -44.505   -7.731  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "O2'"  1  
+ATOM  11  C  "C1'"  ?     G  B  ?  2166  ?      -7.819  -43.629    -9.05  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  "C1'"  1  
+ATOM  12  N  N9     ?     G  B  ?  2166  ?      -7.171  -42.346   -9.372  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  N9     1  
+ATOM  13  C  C8     ?     G  B  ?  2166  ?      -7.201  -41.585  -10.524  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  C8     1  
+ATOM  14  N  N7     ?     G  B  ?  2166  ?      -6.479  -40.486  -10.432  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  N7     1  
+ATOM  15  C  C5     ?     G  B  ?  2166  ?       -5.97  -40.543   -9.131  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  C5     1  
+ATOM  16  C  C6     ?     G  B  ?  2166  ?      -5.125  -39.656   -8.418  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  C6     1  
+ATOM  17  O  O6     ?     G  B  ?  2166  ?      -4.636    -38.6   -8.798  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  O6     1  
+ATOM  18  N  N1     ?     G  B  ?  2166  ?      -4.863  -40.109   -7.138  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  N1     1  
+ATOM  19  C  C2     ?     G  B  ?  2166  ?      -5.334   -41.27   -6.576  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  C2     1  
+ATOM  20  N  N2     ?     G  B  ?  2166  ?      -4.951  -41.526   -5.312  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  N2     1  
+ATOM  21  N  N3     ?     G  B  ?  2166  ?      -6.118   -42.12   -7.221  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  N3     1  
+ATOM  22  C  C4     ?     G  B  ?  2166  ?      -6.388   -41.68   -8.473  ?  ?  ?  ?  ?  ?  ?  .  2166  G  B  C4     1  
+ATOM   0  P  P      ?     U  B  ?  2172  ?      0.106  -32.642   -9.225  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  P      1  
+ATOM   1  O  OP1    ?     U  B  ?  2172  ?      0.864  -31.438   -8.887  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  OP1    1  
+ATOM   2  O  OP2    ?     U  B  ?  2172  ?      -0.31  -32.848  -10.628  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  OP2    1  
+ATOM   3  O  "O5'"  ?     U  B  ?  2172  ?      0.856  -33.941   -8.677  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "O5'"  1  
+ATOM   4  C  "C5'"  ?     U  B  ?  2172  ?      1.936  -33.846   -7.748  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "C5'"  1  
+ATOM   5  C  "C4'"  ?     U  B  ?  2172  ?      1.483  -33.609   -6.308  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "C4'"  1  
+ATOM   6  O  "O4'"  ?     U  B  ?  2172  ?      0.148  -34.166    -6.08  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "O4'"  1  
+ATOM   7  C  "C3'"  ?     U  B  ?  2172  ?      2.383  -34.246   -5.241  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "C3'"  1  
+ATOM   8  O  "O3'"  ?     U  B  ?  2172  ?      2.394  -33.415   -4.071  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "O3'"  1  
+ATOM   9  C  "C2'"  ?     U  B  ?  2172  ?      1.627  -35.534   -4.919  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "C2'"  1  
+ATOM  10  O  "O2'"  ?     U  B  ?  2172  ?      1.983  -36.128   -3.677  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "O2'"  1  
+ATOM  11  C  "C1'"  ?     U  B  ?  2172  ?      0.204  -34.987   -4.921  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  "C1'"  1  
+ATOM  12  N  N1     ?     U  B  ?  2172  ?     -0.879  -36.001   -4.985  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  N1     1  
+ATOM  13  C  C2     ?     U  B  ?  2172  ?     -1.431  -36.415   -3.777  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  C2     1  
+ATOM  14  O  O2     ?     U  B  ?  2172  ?     -1.069  -36.013   -2.671  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  O2     1  
+ATOM  15  N  N3     ?     U  B  ?  2172  ?     -2.431  -37.342   -3.906  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  N3     1  
+ATOM  16  C  C4     ?     U  B  ?  2172  ?     -2.907  -37.868   -5.088  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  C4     1  
+ATOM  17  O  O4     ?     U  B  ?  2172  ?     -3.809  -38.684   -5.038  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  O4     1  
+ATOM  18  C  C5     ?     U  B  ?  2172  ?     -2.302  -37.374   -6.288  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  C5     1  
+ATOM  19  C  C6     ?     U  B  ?  2172  ?     -1.334  -36.478    -6.19  ?  ?  ?  ?  ?  ?  ?  .  2172  U  B  C6     1  
