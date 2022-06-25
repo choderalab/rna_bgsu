@@ -1,4 +1,17 @@
+# default
 **/_obsolete
 **/dump
 **/.ipynb_checkpoints
-**/.cif
+**/*nohup*
+**/.cif*
+**/.pdb*
+**/.log
+**/.sh
+
+# files
+data/bpcatalog/*/*.pdb*
+mols.sdf
+
+# additional directories
+minimized
+pdb
