@@ -90,6 +90,6 @@ Add hydrogen atoms and minimize hydrogens
 
 - `script/merge_sdf.py` -> mols.sdf  
         - Merge all sdf into a single sdf using RDKit
-        - It turns out that some triple base structures (e.g. Triple_tWH_cSS_CAG.pdb/cif) have overlapping atoms... These errors were raised for modeled structures. No problems detected for experimental structures (i.e. "exemplar"). Weird why this was not detected earlier...
+        - It turns out that some triple base structures (e.g. Triple_tWH_cSS_CAG.pdb/cif) have overlapping atoms... These errors were raised for modeled structures. No problems detected for experimental structures (i.e. "exemplar").   
         - Triple base structures were excluded from merging
 
