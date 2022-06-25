@@ -5,10 +5,10 @@
 **/*nohup*
 **/.cif*
 **/.pdb*
-**/.log
-**/.sh
 
 # files
+scripts/merge_sdf.log
+scripts/openmm_implicit_minimizer.sh
 data/bpcatalog/*/*.pdb*
 mols.sdf
 
