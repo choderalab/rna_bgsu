@@ -77,19 +77,14 @@ Add hydrogen atoms and minimize hydrogens
     - All files were checked if they could be loaded with PDBFixer
     - Warning found for two BP files. TER was inserted in the wrong position. Manually fixed.
 
-- `script/openmm_implicit_minimizer.py`  
+- `script/openmm_implicit_minimizer.py`
     - Added hydrogen prior to minimization
     - Implicit solvent applied (GBN2)
     - Heavy atom restraint applied (5 kcal/mol/A^2)
     - 10 step NVT to check nothing fuzzy with the input structure
         -  Errors raised for some Triple base structures downloaded from [RNA Base Triple Database](http://rna.bgsu.edu/triples/triples.php)
+    - It turns out that some triple base structures (e.g. Triple_tWH_cSS_CAG.pdb/cif) have overlapping atoms... These errors were raised for modeled structures. No problems detected for experimental structures (i.e. "exemplar").   
+    - Triple base structures were moved to directory `minimized/_obsolete` 
 
-- `script/covert_pdb2sdf.sh`
-    - Convert minimized pdb into sdf using Openbabel
-        >obabel -ipdb *.pdb -osdf -m  
-
-- `script/merge_sdf.py` -> mols.sdf  
-        - Merge all sdf into a single sdf using RDKit
-        - It turns out that some triple base structures (e.g. Triple_tWH_cSS_CAG.pdb/cif) have overlapping atoms... These errors were raised for modeled structures. No problems detected for experimental structures (i.e. "exemplar").   
-        - Triple base structures were excluded from merging
-
+- `script/convert_pdb2sdf.sh`
+    - convert minimized pdb to sdf format using schrodinger software (pdbconvert: pdb -> mae / canvasConvert: mae -> sdf)
