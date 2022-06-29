@@ -1,7 +1,7 @@
-# RNA structure information from [RNA BGSU](https://www.bgsu.edu/research/rna.html)
+# Create RNA structure dataset for QCArchive submission
 
 
-Download json/csv files
+Download json/csv files from [RNA BGSU](https://www.bgsu.edu/research/rna.html)
 ------
 [Internal loop motifs](http://rna.bgsu.edu/rna3dhub/motifs/release/il/3.57)
 - InternalLoopMotifAtlasRelease3.57.json
@@ -56,8 +56,8 @@ Split loops into three consecutive bases and perform clustering for each base se
 
 - `cluster_motifs.ipynb`
     - Each triple base set was clustered with bottom-up (agglomerative) hierarchical clustering with average linking.
-    - Euclidean distances between set of pre-defined atom pairs were used as input features.
-    - Distance threhold of "1" was used for clustering. This was defined so that the number of cluster centroids from each triple base set were ~4000 structures. The maximum RMSD measured from the centroid structure for each cluster was also monitored to insure structures are well-clustered. Maximum RMSD from all clusters are below ~2.2 Angstroms.
+    - Euclidean distances between set of pre-defined atom pairs were used as input features. Also tried torsion angles as input features for clustering but internal distances were better.
+    - Distance threhold of "1" was used for clustering. This was defined so that the number of cluster centroids from each triple base set were ~4000 structures. The maximum RMSD measured from the centroid structure for each cluster was also monitored to ensure structures are well-clustered. Maximum RMSD from all clusters are below ~2.4 Angstroms.
 
 
 
@@ -87,4 +87,11 @@ Add hydrogen atoms and minimize structure
     - Triple base structures were moved to directory `minimized/_obsolete` 
 
 - `script/convert_pdb2sdf.sh`
-    - convert minimized pdb to sdf format using schrodinger software (pdbconvert: pdb -> mae / canvasConvert: mae -> sdf)
+    - convert minimized pdb to sdf using schrodinger software (pdbconvert: pdb -> mae / canvasConvert: mae -> sdf)
+    
+
+
+Generate small dataset prior to QCArchive submission
+------
+    - `qca-dataset-submission_TEST/generate-dataset.ipynb`
+
