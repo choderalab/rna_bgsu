@@ -93,5 +93,5 @@ Add hydrogen atoms and minimize structure
 
 Generate small dataset prior to QCArchive submission
 ------
-    - `qca-dataset-submission_TEST/generate-dataset.ipynb`
+- `qca-dataset-submission_TEST/generate-dataset.ipynb`
 
