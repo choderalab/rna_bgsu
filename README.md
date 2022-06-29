@@ -70,7 +70,7 @@ Edit 5' base residues and add TER from base pair catalogs and base triple databa
 
 
 
-Add hydrogen atoms and minimize hydrogens
+Add hydrogen atoms and minimize structure
 ------
 
 - `script/check_files.py`
