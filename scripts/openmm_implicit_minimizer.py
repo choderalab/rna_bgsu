@@ -29,7 +29,6 @@ from openmm.app import PDBFile
 from pdbfixer import PDBFixer
 
 
-
 def minimize(output_path, file):
     
     """
@@ -55,7 +54,7 @@ def minimize(output_path, file):
     
     # heavy atom restraint
     force = CustomExternalForce("k*((x-x0)^2+(y-y0)^2+(z-z0)^2)")
-    force.addGlobalParameter("k", 5.0*kilocalories_per_mole/angstroms**2)
+    force.addGlobalParameter("k", 30.0*kilocalories_per_mole/angstroms**2)
     force.addPerParticleParameter("x0")
     force.addPerParticleParameter("y0")
     force.addPerParticleParameter("z0")
@@ -73,6 +72,8 @@ def minimize(output_path, file):
     integrator = LangevinIntegrator(300*kelvin, 1/picosecond, 0.002*picoseconds)
     simulation = Simulation(fixer.topology, system, integrator)
     simulation.context.setPositions(fixer.positions)
+    # http://getyank.org/latest/api/multistate_api/index.html?highlight=minimi#yank.multistate.multistatesampler.MultiStateSampler.minimize
+    #simulation.minimizeEnergy(maxIterations=100, tolerance=1.0*kilojoules_per_mole/nanometers)
     simulation.minimizeEnergy(maxIterations=100)
     minpositions = simulation.context.getState(getPositions=True).getPositions()
     
@@ -84,10 +85,10 @@ def minimize(output_path, file):
         PDBFile.writeFile(fixer.topology, minpositions, open(os.path.join(output_path, basename), 'w'))   
         
         # check if simulation can be run properly
-        simulation.reporters.append(PDBReporter('/Users/takabak/Desktop/dump.pdb', 1))
+        #simulation.reporters.append(PDBReporter('/Users/takabak/Desktop/dump.pdb', 1))
         #simulation.reporters.append(StateDataReporter(stdout, 1, step=True, potentialEnergy=True, temperature=True))
         #simulation.reporters.append(StateDataReporter(stdout, 1, step=False, potentialEnergy=False, temperature=False))
-        simulation.step(10)
+        #simulation.step(10)
     except:
         print("{}: Check structure!!".format(basename))
 
@@ -128,17 +129,16 @@ if __name__ == "__main__":
     _path = os.path.join(base_path, "pdb", "bpcatalog")
     bpcatalog_files = glob.glob(_path + "/*.pdb" )
 
-    
+
     #files = motif_files + triplebase_files + bpcatalog_files
-    files = triplebase_files + bpcatalog_files
     #files = motif_files
+    files = triplebase_files
+    #files = bpcatalog_files
     print(">{} files found".format(len(files)))
     
     
-    #for file in files[:1000]:
-    #for file in files[1000:2000]:
-    #for file in files[2000:3000]:
-    for file in files[3000:]:
+    for file in files:
+        print(os.path.basename(file))
         status = test(file)
         if status == "success":
             minimize(output_path, file)
