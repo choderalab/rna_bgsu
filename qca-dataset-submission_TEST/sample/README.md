@@ -1,0 +1,2 @@
+- structures taken from `minimized.old`
+- input structures were minimized with old minimization protocol
