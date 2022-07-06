@@ -1,2 +1,2 @@
-- structures taken from `minimized.old`
+- structures taken from `$HOMEDIR/_obsolete/minimized.old`
 - input structures were minimized with old minimization protocol
