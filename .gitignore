@@ -8,6 +8,8 @@
 
 # files
 data/bpcatalog/*/*.pdb*
+scripts/*out*
+qca-dataset-submission_TEST/*.out*
 
 # additional directories
 minimized
