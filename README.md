@@ -92,13 +92,19 @@ Generate dataset using part of the minimized data prior to QCArchive submission
 
 - `qca-dataset-submission_TEST/generate-dataset.ipynb`
     - [Isomorphic AssertionError](https://github.com/choderalab/rna_bgsu/issues/1) issue
+        - motivated to check all strtuctures and remove invalid structures (`check_structure.py`)
 - `qca-dataset-submission_TEST/check_structures.py`
-    - check input structure prior to submission regarding the Isom
-        - pdb to rdkit conversion, stererocenters
-        - rename pdb that has warnings and/or problems
+    - check pdb to rdkit conversion, stererocenters, stereobonds (input pdb: structures by exported by `script/openmm_implicit_minimizer.py`)
+    - add suffix to pdb if warnings and/or problems were found and move problematic strucutres to a different directory
+    >cd minimized
+    >mkdir error
+    >mv *.pdb. error
+    - **pdb structures that passed the check and conveted to rdkit mol object are saved as pickle**
 - `qca-dataset-submission_TEST/convert_pdb2sdf.sh`
-    - convert minimized pdb without warnings to sdf using schrodinger software (pdbconvert: pdb -> mae / canvasConvert: mae -> sdf)
-    - merge all sdf into a single file
-        > cat ../minimized/*.sdf >> mols.sdf
-- `qca-dataset-submission_TEST/generate-dataset-FIXED.ipynb`
-    - final version with all problems fixed
+    - convert pdb structures that passed `qca-dataset-submission_TEST/check_structures.py` to sdf using schrodinger software (pdbconvert: pdb -> mae / canvasConvert: mae -> sdf)
+    - pdb/sdf were moved after the converting the file format
+    >cd minimized  
+    >mkdir pdb sdf  
+    >mv *.pdb pdb  
+    >mv *.sdf sdf  
+    >cat sdf/*.sdf >> mols.sdf
