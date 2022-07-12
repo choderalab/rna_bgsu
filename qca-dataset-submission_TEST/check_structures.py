@@ -241,6 +241,10 @@ if __name__ == "__main__":
     #workflow(filenames="../minimized/rep*.pdb", suffix="loopMOTIFS", stereo_reference="RSRRRSRRRSRR")
 
     # check triple base databse
-    print("### TRIPLE BASE DATABASE")
-    workflow(filenames="../minimized/Triple*.pdb", suffix="triplebaseDB", stereo_reference="RSRRRSRRRSRR")
+    #print("### TRIPLE BASE DATABASE")
+    #workflow(filenames="../minimized/Triple*.pdb", suffix="triplebaseDB", stereo_reference="RSRRRSRRRSRR")
+
+    # check triple base databse (experimental structures only: suffix with exemplar)
+    print("### TRIPLE BASE DATABASE (EXPERIMENTAL STRUCTURES ONLY)")
+    workflow(filenames="../minimized/Triple*exemplar.pdb", suffix="triplebaseDB_exemplar", stereo_reference="RSRRRSRRRSRR")
 
