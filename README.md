@@ -87,7 +87,7 @@ Add hydrogen atoms and minimize structure
 
 
 
-Generate dataset using part of the minimized data prior to QCArchive submission
+Test creating dataset prior to QCArchive submission
 ------
 
 - `qca-dataset-submission_TEST/generate-dataset.ipynb`
@@ -98,13 +98,11 @@ Generate dataset using part of the minimized data prior to QCArchive submission
     - add suffix to pdb if warnings and/or problems were found and move problematic strucutres to a different directory
     >cd minimized
     >mkdir error
-    >mv *.pdb. error
+    >mv *.pdb.\* error
     - **pdb structures that passed the check and conveted to rdkit mol object are saved as pickle**
+    - `rdmols_basepairCATALOG.pkl`, `rdmols_loopMOTIFS.pkl`, `rdmols_triplebase_exemplar.pkl` are used for QCArchive submission
+    - `rdmols_triplebase.pkl` was excluded from the dataset because these are modeled structures and invalid structures were found for several cases.
 - `qca-dataset-submission_TEST/convert_pdb2sdf.sh`
     - convert pdb structures that passed `qca-dataset-submission_TEST/check_structures.py` to sdf using schrodinger software (pdbconvert: pdb -> mae / canvasConvert: mae -> sdf)
-    - pdb/sdf were moved after the converting the file format
-    >cd minimized  
-    >mkdir pdb sdf  
-    >mv *.pdb pdb  
-    >mv *.sdf sdf  
-    >cat sdf/*.sdf >> mols.sdf
+    - compress pdb/sdf for basepairCATALOG, loopMOTIFS, triplebaseDB, triplebaseDB_exemplar, respectively
+        - files are stored in `minimized` dircetory
