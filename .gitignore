@@ -1,16 +1,9 @@
-# default
 **/_obsolete
 **/dump
 **/.ipynb_checkpoints
 **/*nohup*
 **/.cif*
 **/.pdb*
-
-# files
-data/bpcatalog/*/*.pdb*
-scripts/*out*
-qca-dataset-submission_TEST/*.out*
-
-# additional directories
-minimized
+**/*out*
+qca-dataset-submission_TEST/check_datasetfactory
 pdb
